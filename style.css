@@ -1,0 +1,56 @@
+ body {      font-family: 'Inter', sans-serif;
+            margin:10px;
+            height: 100vh;
+            background-image: url(pexels-lumn-311039.jpg);
+             background-size: cover; /* You can also use 'contain' or other values */
+             background-repeat: no-repeat;
+      }
+.about-me{
+    padding: 40px;
+    margin: 40px;
+    background-color:#abede0;
+    border-style: inset;
+      border-width: 7px;
+       border-color: lightgrey;
+
+}
+#self-photo {
+            width: 320px;
+            margin: 50px;
+            height: 320px; /* Maintain the aspect ratio */
+            margin-right: 10px;
+            margin-left: 10px;
+            border-radius: 70%;
+            top: 20px;
+            border: 10px;
+          
+        }
+.container {
+            display: flex;
+            align-items: center;
+
+        }
+.container2 {
+      display: flex;
+      flex-wrap: wrap; /* This allows the items to wrap to the next line if there's not enough space */
+      justify-content: space-between; /* Adjust this according to your layout needs */
+    }
+
+.logo{
+ width:22px;
+ height:20px;}
+ .tech{
+ width:40px;
+ height:30px;}
+#health-data{
+}
+.date{
+            text-align:right;
+}
+
+.logo-container{
+            margin-left: auto;
+}
+.logo-container img{
+mix-blend-mode: darken
+}
