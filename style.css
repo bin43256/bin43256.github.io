@@ -1,7 +1,7 @@
  body {      font-family: 'Inter', sans-serif;
             margin:10px;
             height: 100vh;
-            background-image: url(pexels-lumn-311039.jpg);
+            background-image: url(Images/background.jpg);
              background-size: cover; /* You can also use 'contain' or other values */
              background-repeat: no-repeat;
       }
