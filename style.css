@@ -1,17 +1,18 @@
- body {      font-family: 'Inter', sans-serif;
+ body {     font-family: 'Inter', sans-serif;
             margin:10px;
             height: 100vh;
             background-image: url(Images/background.jpg);
-             background-size: cover; /* You can also use 'contain' or other values */
-             background-repeat: no-repeat;
+            background-size: cover; /* You can also use 'contain' or other values */
+            background-repeat: no-repeat;
+            background-attachment: fixed;
       }
 .about-me{
     padding: 40px;
     margin: 40px;
     background-color:#abede0;
     border-style: inset;
-      border-width: 7px;
-       border-color: lightgrey;
+    border-width: 7px;
+    border-color: lightgrey;
 
 }
 #self-photo {
@@ -39,7 +40,7 @@
 .logo{
  width:22px;
  height:20px;}
- .tech{
+.tech{
  width:40px;
  height:30px;}
 #health-data{
