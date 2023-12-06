@@ -32,9 +32,10 @@ a:active {
 
 }
 .title {
-    display: flex;
     flex-wrap: wrap; /* This allows the items to wrap to the next line if there's not enough space */
-    justify-content: space-between; /* Adjust this according to your layout needs */
+    display: flex;
+    padding-top: 10px;
+    padding-right: 10px;
   }
 .logo{
 width:22px;
