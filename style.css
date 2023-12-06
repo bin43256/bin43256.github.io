@@ -1,56 +1,55 @@
- body {     font-family: 'Inter', sans-serif;
-            margin:10px;
-            height: 100vh;
-            background-image: url(Images/background.jpg);
-            background-size: cover; /* You can also use 'contain' or other values */
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-      }
+body {     font-family: 'Inter', sans-serif;
+    margin:10px;
+    height: 100vh;
+    background-image: url(Images/background.jpg);
+    background-size: cover; /* You can also use 'contain' or other values */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 .about-me{
-    padding: 40px;
-    margin: 40px;
-    background-color:#abede0;
-    border-style: inset;
-    border-width: 7px;
-    border-color: lightgrey;
+padding: 40px;
+margin: 40px;
+background-color:#abede0;
+border-color: lightgrey;
+border-radius:1cm;
 
 }
-#self-photo {
-            width: 320px;
-            margin: 50px;
-            height: 320px; /* Maintain the aspect ratio */
-            margin-right: 10px;
-            margin-left: 10px;
-            border-radius: 70%;
-            top: 20px;
-            border: 10px;
-          
-        }
+a:active {
+    text-decoration: underline; /* Add underline when clicked */
+  }
+  #self-photo {
+    width: 320px;
+    height: 320px; /* Maintain the aspect ratio */
+    margin: 50px 10px; /* Updated margin shorthand */
+    border-radius: 50%; /* 50% to create a circular shape */
+    border: 4px solid lightblue; /* Specify border style, width, and color */
+    top: 20px; /* If you're using position: absolute or position: fixed */
+}
+
 .container {
-            display: flex;
-            align-items: center;
+    display: flex;
+    align-items: center;
 
-        }
-.container2 {
-      display: flex;
-      flex-wrap: wrap; /* This allows the items to wrap to the next line if there's not enough space */
-      justify-content: space-between; /* Adjust this according to your layout needs */
-    }
-
+}
+.title {
+    display: flex;
+    flex-wrap: wrap; /* This allows the items to wrap to the next line if there's not enough space */
+    justify-content: space-between; /* Adjust this according to your layout needs */
+  }
 .logo{
- width:22px;
- height:20px;}
+width:22px;
+height:20px;}
 .tech{
- width:40px;
- height:30px;}
+width:40px;
+height:30px;}
 #health-data{
 }
 .date{
-            text-align:right;
+    text-align:right;
 }
 
 .logo-container{
-            margin-left: auto;
+    margin-left: auto;
 }
 .logo-container img{
 mix-blend-mode: darken
